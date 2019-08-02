@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HYATT REGENCY JEJU</title>
+	<script>
+		// 상단 하단 모두 새로고침
+		function gourl(url1,url2){
+			document.getElementById("fm1").contentWindow.location.href=url1;
+			document.getElementById("fm2").contentWindow.location.href=url2;
+		}
+		function gourltop(url){
+			document.getElementById("fm1").contentWindow.location.href=url;
+		}
+		function gourlbottom(url){
+			document.getElementById("fm2").contentWindow.location.href=url;
+		}
+	</script>
+	<!-- 한 페이지를 두 프레임으로 나눔 -->
+	<frameset rows="230,*" frameborer="0" border="0" frameborder="1">
+		<frame id="fm1" src="top.jsp"> <!-- 상단 메뉴 -->
+		<frame id="fm2" src="main.html" name=main> <!-- 내용 -->
+	</frameset>
+</head>
+<body>
+</body>
+</html>
+
