@@ -1,6 +1,6 @@
 # resort_reservation_website
 
-
+[메인]
 ![메인](./image/resort_1.PNG)
 -----------------------------
 
